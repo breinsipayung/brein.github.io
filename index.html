@@ -1,0 +1,196 @@
+<html>
+	<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Brein Hamdo Sipayung </title>
+	<style>
+		body {
+			font-family:arial;
+			margin: 0;
+		}
+		
+		ul.sidenav {
+		  list-style-type: none;
+		  margin: 0;
+		  padding: 0;
+		  width: 25%;
+		  background-color: #21130d;
+		  color:white;
+		  position: fixed;
+		  height: 100%;
+		  overflow: auto;
+		}
+
+		ul.sidenav li a {
+		  display: block;
+		  color: white;
+		  padding: 8px 16px;
+		  text-decoration: none;
+		  width: 70px;
+		}
+		ul.sidenav li a:hover{
+			background-color: #d15502;
+			border-radius: 10px;
+		}
+
+		.content {
+		  margin-left: 25%;
+		  padding: 1px 16px;
+		  height: 400px;
+		}
+
+		@media screen and (max-width: 900px) {
+		  ul.sidenav {
+			width: 100%;
+			height: auto;
+			position: relative;
+		  }
+		  
+		  ul.sidenav li a {
+			float: left;
+			padding: 15px;
+		  }
+		  
+		  div.content {margin-left: 0;}
+		}
+
+		@media screen and (max-width: 400px) {
+		  ul.sidenav li a {
+			text-align: center;
+			float: none;
+		  }
+		}
+		.bulat{
+			border-radius: 50%;
+			height : 180px;
+			width: 180px;
+			margin-top:30px;
+		}
+		.card {
+		  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+		  border-radius: 10%;
+		  transition: 0.3s;
+		  width: 40%;
+		}
+
+		.card:hover {
+		  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+		}
+
+		.container {
+		  padding: 2px 16px;
+		}
+		.button {
+		  background-color: #d15502;
+		  border: none;
+		  border-radius: 10px;
+		  color: white;
+		  padding: 9px;
+		  text-align: left;
+		  text-decoration: none;
+		  display: inline-block;
+		  margin-bottom: 10px;
+		  font-size: 15px;
+		  cursor: pointer;
+		}
+		h2{
+			line-height: 2px;
+			width: 150px;
+			height: 30px;
+		}
+	
+	</style>
+	</head>
+
+	<body>
+		<center>
+		<ul class="sidenav">
+			<li><img class="bulat" src="image/foto1.png"></li>
+			<li>&nbsp </li>
+			<li><b>&nbsp Brein Hamdo Sipayung</b></li>
+			<li>&nbsp </li>
+			<li><a href="#about">About Me</a></li>
+			<li><a href="#portfolio">Portfolio</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+		</center>
+		<div class="content">
+			<center>
+			<a id="about"></a>
+			<h2> About Me</h2>
+			<p style="width: 500px; line-height: 1.5;">
+				A career in Information Technology, specifically in the areas of website development that will optimally utilize strong design skills as well as PHP-based progamming skills
+			</p>
+			<br><br>
+			<a id="portfolio"></a>
+			<h2>Portfolio</h2>
+			<br>
+			<div class="card" style="float:left; margin-left:60px">
+			  <img src="image/cobain.jpeg" style="width:100%;height:250px;">
+			  <div class="container">
+				<h4 style="font-size: 20px;"><b>Cobain</b></h4> 
+				<p>This project was build by Laravel Framework, This Website used to order some food or drink </p>
+				<a href="https://github.com/breinsipayung/cobain">
+					<button class="button">Detail Project</button></a>			
+			  </div>
+			</div>
+			<div class="card" style="float:right ; margin-right:60px">
+			  <img src="image/coffeeshop.jpg" style="width:100%;height:250px;">
+			  <div class="container">
+				<h4 style="font-size: 20px;"><b>Coffee Shop</b></h4> 
+				<p>Coffee Shop Web build by PHP Language, Provide service to buy some drink or beverage</p> 
+				<a href="https://github.com/breinsipayung/Coffeshop">
+					<button class="button">Detail Project</button></a>
+			  </div>
+			</div>
+			<div class="card" style="float:right ; margin-right:60px ; margin-top : 60px">
+			  <img src="image/moneyball.jpg" style="width:100%;height:250px;">
+			  <div class="container">
+				<h4 style="font-size: 20px;"><b>Money Ball Prediction</b></h4> 
+				<p>Money Ball Web was build by Flask framework and Python Language , this web used to guess winner from money ball game.</p>
+				<a href="https://github.com/breinsipayung/TugasBesar-AI-MoneyBallPrediction">
+					<button class="button">Detail Project</button></a>
+			  </div>
+			</div>
+			<div class="card" style="float:left ; margin-left:60px ; margin-top : 60px">
+			  <img src="image/lifecare.jpeg" style="width:100%;height:250px;">
+			  <div class="container">
+				<h4 style="font-size: 20px;"><b>Life-Care</b></h4> 
+				<p>Life-Care Web build by PHP Language , Provide service to get your hospital queue number</p>
+				<a href="https://github.com/breinsipayung/Life-care">
+					<button class="button">Detail Project</button></a>
+			  </div>
+			</div>
+			<h2 style="margin-top:1000px;">Contact</h2>
+			<a id="contact"></a><div style="float:center ; margin-top : 30px">
+				<table>
+					<tr>
+						<td><a href="https://www.linkedin.com/in/brein-hamdo-sipayung/"><img src="image/linkin.png" width="125px" height="125px"></a></td>
+						<td>&nbsp </td>
+						<td><img src="image/wa.png" width="125px" height="125px"></td>
+						<td>&nbsp </td>
+						<td><a href="https://www.instagram.com/brein.s/"><img src="image/ig.png" width="125px" height="125px"></td>
+						<td>&nbsp </td>
+						<td><a href="https://github.com/breinsipayung/"><img src="image/github.png" width="125px" height="125px"></td>
+						<td>&nbsp </td>
+						<td><center><img src="image/email.png" width="125px" height="125px"></center></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td><center><p>+6281285004360</p></center></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td><p>breinhamdo@gmail.com</p></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		
+		</center>
+		
+	</body>
+
+</html>
